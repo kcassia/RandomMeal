@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".SettingActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <Button
+            android:id="@+id/addStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:width="200dp"
+            android:text="음식점 추가"
+            android:textStyle="bold"
+            android:background="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/deleteStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:width="200dp"
+            android:text="음식점 삭제"
+            android:textStyle="bold"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/showStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:width="200dp"
+            android:text="음식점 목록"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/kindButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:width="200dp"
+            android:textStyle="bold"
+            android:text="종류"
+            android:background="#FFFFFF"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#FF0000"
+        android:textColor="#ffffff"
+        android:textSize="33sp"
+        android:text="START"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>

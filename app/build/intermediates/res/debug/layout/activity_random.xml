@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomActivity"
+    android:id="@+id/randomActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:src="@drawable/animation"/>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/계현/AndroidStudioProjects/RandomMeal/app/src/main/res/layout/activity_random.xml -->
